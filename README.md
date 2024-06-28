@@ -11,8 +11,6 @@
 
 - 👯 I’m looking to collaborate on **Full Stack Blockchain Projects**
 
-- 👨‍💻 All of my projects are available at [https://drive.google.com/file/d/1durcuA6wjBR87_lQKcmsAzyqMFcInvkf/view?usp=sharing](https://drive.google.com/file/d/1durcuA6wjBR87_lQKcmsAzyqMFcInvkf/view?usp=sharing)
-
 - 💬 Ask me about **Ethereum | EMV |Smart Contracts | Defi | Dex | NEXTJS | React | Tailwind | WEB3**
 
 - 📫 How to reach me **ahmadrazashafi@gmail.com**

@@ -17,7 +17,6 @@
 
 - 📫 How to reach me **ahmadrazashafi@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1durcuA6wjBR87_lQKcmsAzyqMFcInvkf/view?usp=sharing](https://drive.google.com/file/d/1durcuA6wjBR87_lQKcmsAzyqMFcInvkf/view?usp=sharing)
 
 
 <h3 align="left">Languages and Tools:</h3>

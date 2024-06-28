@@ -13,7 +13,6 @@
 
 - 💬 Ask me about **Ethereum | EMV |Smart Contracts | Defi | Dex | NEXTJS | React | Tailwind | WEB3**
 
-- 📫 How to reach me **ahmadrazashafi@gmail.com**
 
 
 

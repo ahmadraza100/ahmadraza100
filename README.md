@@ -1,52 +1,35 @@
-# Hi 👋 I'm Ahmad Raza
+# Ahmad Raza
 
-**Full Stack Developer · AI Engineer · Blockchain · MSc Researcher**
+Full-stack developer building production-grade web and mobile applications, with a background in Computer Science and working knowledge of AI-integrated systems. Currently completing an MSc in Computer Science at Ulster University, researching continuous authentication systems.
 
-![Profile views](https://komarev.com/ghpvc/?username=ahmadraza100&color=blue)
+I care about understanding systems at the mechanism level, not just shipping features that work by coincidence. That shows up in how I build: proper architecture over quick hacks, and code I can actually explain the tradeoffs behind, including the framework internals most developers only ever consume.
 
----
-
-## About me
-
-- 🎓 Masters student doing active **research**
-- 🚀 Building full stack apps with **Node.js, Next.js, React, React Native**
-- 🤖 Creating AI-powered products with **Python, Flask, LangChain, OpenAI API**
-- ⛓️ Working with **Ethereum, Solidity, Smart Contracts, Web3**
-- 🌱 Currently learning **advanced blockchain protocols & Go**
-- 💬 Ask me about **Node.js, Next.js, Python, Flask, AI integrations, MERN Stack**
+**Currently building:** [Pulzie](https://github.com/ahmadraza100/pulzie), a reactive UI framework built from scratch, ~300 lines, no dependencies
+**Currently researching:** Continuous biometric authentication for my MSc dissertation
 
 ---
 
-## Tech stack
+## What I Work With
 
-**⚡ Core — fullstack**
+**Full-Stack Development**
+JavaScript · TypeScript · React · Next.js · React Native · Node.js · Express · TanStack Query · Zustand · Tailwind CSS · REST APIs · GraphQL · Prisma · PostgreSQL · MongoDB · Vite · Zod
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+**AI & Machine Learning**
+Python · Flask · LangChain · OpenAI API
 
-**🤖 AI / Python**
+**Infrastructure**
+Docker · AWS · Firebase · Git
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+---
 
-**⛓️ Blockchain**
+## Selected Work
 
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3dotjs&logoColor=white)
+**[Pulzie](https://github.com/ahmadraza100/pulzie)**
+A reactive UI framework built from scratch in vanilla JavaScript, no libraries or compiler plugins. Signals drive reactivity: only the effects that read a changed signal re-run, and the DOM patches surgically instead of re-rendering. About 300 lines covering reactive signals, batched updates, virtual DOM diffing, JSX, and undo/redo, built to understand what's actually happening inside frameworks like Solid and Vue, not just to use them.
 
-**🛠️ Tools & infra**
+**[ContinuousAuth](https://github.com/ahmadraza100/continuousauth-edge)**
+Continuous biometric authentication running entirely on a Raspberry Pi 4, no cloud. Most systems verify identity once at the door and stop; this one keeps checking face and voice throughout the session, decaying a trust score and forcing re-authentication within about 20 seconds if the wrong person takes over. Built for my MSc Cyber Security dissertation at Ulster University. Fusion model evaluated under 7-fold cross-validation (AUC 0.978, EER 6.7%), with every access decision logged to a smart contract for tamper-evident audit.
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+---
+
+*Open to full-stack or AI engineering roles where I can work close to the system, not just the surface.*

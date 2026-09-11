@@ -1,35 +1,32 @@
 # Ahmad Raza
 
-Full-stack developer building production-grade web and mobile applications, with a background in Computer Science and working knowledge of AI-integrated systems. Currently completing an MSc in Computer Science at Ulster University, researching continuous authentication systems.
+Full-stack dev, mostly JS/TS across web and mobile, with some AI work mixed in. Background in Computer Science, currently finishing an MSc at Ulster University where I'm researching continuous authentication for my dissertation.
 
-I care about understanding systems at the mechanism level, not just shipping features that work by coincidence. That shows up in how I build: proper architecture over quick hacks, and code I can actually explain the tradeoffs behind, including the framework internals most developers only ever consume.
+I like knowing how the tools I use actually work, not just that they work. If something feels like magic, I usually end up rebuilding a small version of it myself just to see what's actually happening underneath.
 
-**Currently building:** [Pulzie](https://github.com/ahmadraza100/pulzie), a reactive UI framework built from scratch, ~300 lines, no dependencies
-**Currently researching:** Continuous biometric authentication for my MSc dissertation
-
----
-
-## What I Work With
-
-**Full-Stack Development**
-JavaScript · TypeScript · React · Next.js · React Native · Node.js · Express · TanStack Query · Zustand · Tailwind CSS · REST APIs · GraphQL · Prisma · PostgreSQL · MongoDB · Vite · Zod
-
-**AI & Machine Learning**
-Python · Flask · LangChain · OpenAI API
-
-**Infrastructure**
-Docker · AWS · Firebase · Git
+**Building right now:** [Pulzie](https://github.com/ahmadraza100/pulzie), a small reactive framework I wrote from scratch, ~300 lines, no dependencies
+**Researching right now:** continuous biometric authentication, for my dissertation
 
 ---
 
-## Selected Work
+## What I use
+
+**Full-stack:** JavaScript, TypeScript, React, Next.js, React Native, Node.js, Express, TanStack Query, Zustand, Tailwind, REST, GraphQL, Prisma, Postgres, MongoDB, Vite, Zod
+
+**AI:** Python, Flask, LangChain, OpenAI API
+
+**Infra:** Docker, AWS, Firebase, Git
+
+---
+
+## Projects
 
 **[Pulzie](https://github.com/ahmadraza100/pulzie)**
-A reactive UI framework built from scratch in vanilla JavaScript, no libraries or compiler plugins. Signals drive reactivity: only the effects that read a changed signal re-run, and the DOM patches surgically instead of re-rendering. About 300 lines covering reactive signals, batched updates, virtual DOM diffing, JSX, and undo/redo, built to understand what's actually happening inside frameworks like Solid and Vue, not just to use them.
+A reactive UI framework built from scratch in plain JavaScript — no libraries, no compiler plugins. Signals drive the reactivity, so only the effects that actually read a changed signal re-run, and the DOM gets patched directly instead of doing a full re-render. About 300 lines total: signals, batching, a small virtual DOM diff/patch, JSX, undo/redo. Built it mainly to understand what frameworks like Solid and Vue are actually doing under the hood.
 
 **[ContinuousAuth](https://github.com/ahmadraza100/continuousauth-edge)**
-Continuous biometric authentication running entirely on a Raspberry Pi 4, no cloud. Most systems verify identity once at the door and stop; this one keeps checking face and voice throughout the session, decaying a trust score and forcing re-authentication within about 20 seconds if the wrong person takes over. Built for my MSc Cyber Security dissertation at Ulster University. Fusion model evaluated under 7-fold cross-validation (AUC 0.978, EER 6.7%), with every access decision logged to a smart contract for tamper-evident audit.
+Biometric authentication that doesn't stop checking once you're logged in. Runs on a Raspberry Pi 4, no cloud involved. It keeps checking your face and voice throughout a session, and if someone else takes over, the trust score drops and it forces re-auth in about 20 seconds. This was my MSc dissertation project, cyber security focus. The fusion model held up well under 7-fold cross-validation (AUC 0.978, EER 6.7%), and every access decision gets written to a smart contract so the audit log can't quietly be edited later.
 
 ---
 
-*Open to full-stack or AI engineering roles where I can work close to the system, not just the surface.*
+Open to full-stack or AI roles, ideally somewhere I can work close to the actual system rather than just the surface of it.
